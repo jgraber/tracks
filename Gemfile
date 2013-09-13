@@ -57,7 +57,8 @@ group :test do
 
   # Note that > 2.14 has problems, see: 
   # https://code.google.com/p/selenium/issues/detail?id=3075
-  gem "selenium-webdriver" 
+  #gem "selenium-webdriver" 
+  gem "selenium-webdriver", "~> 2.35.1"
   
   # uncomment to use the webkit option. This depends on Qt to be installed
   # gem "capybara-webkit"
